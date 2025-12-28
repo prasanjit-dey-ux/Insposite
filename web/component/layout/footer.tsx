@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <h2 className="text-lg flex items-center gap-2 font-semibold tracking-tight">
               <div className="bg-blue-700 size-6 flex justify-end items-baseline-last">
-                <div className="rounded-full size-4 bg-white"></div>
+                <div className="rounded-full size-3 bg-white"></div>
               </div>
               INSPOSITE
             </h2>
