@@ -299,6 +299,46 @@ export const sitesData: SiteItem[] = [
     creator: "https://x.com/STRFRNTDESIGN",
     image: "/images/storefront.png",
   },
+  {
+    id: "p10",
+    title: "Umesh Nagare",
+    tag: "Portfolio",
+    url: "https://umeshnagare.com/",
+    creator: "https://x.com/umeshn22",
+    image: "/images/umesh.png",
+  },
+  {
+    id: "p11",
+    title: "Abhinav Reddy",
+    tag: "Portfolio",
+    url: "https://reddy-dev.netlify.app/",
+    creator: "https://x.com/abhilostsoul",
+    image: "/images/abhinav_reddy.png",
+  },
+  {
+    id: "p12",
+    title: "Gautam",
+    tag: "Portfolio",
+    url: "https://www.0xgautam.xyz/",
+    creator: "https://github.com/gautamkumar1",
+    image: "/images/gautam.png",
+  },
+  {
+    id: "p13",
+    title: "Ayush Goyal",
+    tag: "Portfolio",
+    url: "https://agayush.me/",
+    creator: "", 
+    image: "/images/ayush.png",
+  },
+  {
+    id: "p14",
+    title: "Atharva Mhaske",
+    tag: "Portfolio",
+    url: "https://atharvaxdevs.xyz/",
+    creator: "", 
+    image: "/images/atharva.png",
+  },
 
 
 ];
