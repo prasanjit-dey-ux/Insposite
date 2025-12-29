@@ -339,6 +339,14 @@ export const sitesData: SiteItem[] = [
     creator: "", 
     image: "/images/atharva.png",
   },
+  {
+    id: "p15",
+    title: "Janina",
+    tag: "Portfolio",
+    url: "https://janina.works/",
+    creator: "@janinaparker_",
+    image: "/images/janina.png",
+  },
 
 
 ];
