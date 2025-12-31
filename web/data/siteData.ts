@@ -307,16 +307,10 @@ export const sitesData: SiteItem[] = [
     creator: "https://x.com/umeshn22",
     image: "/images/umesh.png",
   },
+
+
   {
     id: "p11",
-    title: "Abhinav Reddy",
-    tag: "Portfolio",
-    url: "https://reddy-dev.netlify.app/",
-    creator: "https://x.com/abhilostsoul",
-    image: "/images/abhinav_reddy.png",
-  },
-  {
-    id: "p12",
     title: "Gautam",
     tag: "Portfolio",
     url: "https://www.0xgautam.xyz/",
@@ -324,7 +318,7 @@ export const sitesData: SiteItem[] = [
     image: "/images/gautam.png",
   },
   {
-    id: "p13",
+    id: "p12",
     title: "Ayush Goyal",
     tag: "Portfolio",
     url: "https://agayush.me/",
@@ -332,7 +326,7 @@ export const sitesData: SiteItem[] = [
     image: "/images/ayush.png",
   },
   {
-    id: "p14",
+    id: "p13",
     title: "Atharva Mhaske",
     tag: "Portfolio",
     url: "https://atharvaxdevs.xyz/",
@@ -340,7 +334,7 @@ export const sitesData: SiteItem[] = [
     image: "/images/atharva.png",
   },
   {
-    id: "p15",
+    id: "p14",
     title: "Janina",
     tag: "Portfolio",
     url: "https://janina.works/",
