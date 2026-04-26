@@ -14,10 +14,20 @@ export default function Card({image, title, className, tag, url, creator}: SiteI
     .pop()
     : null; 
   
+  const taggedUrl = (() => {
+    try {
+      const u = new URL(url);
+      u.searchParams.set("ref", "insposite");
+      return u.toString();
+    } catch {
+      return url; // fallback for invalid URLs
+    }
+  })();
+
   return (
     <div className={clsx('border border-slate-300 rounded-lg overflow-hidden group', className)}>
         
-    <Link href={url} target='_blank'>
+    <Link href={taggedUrl} target='_blank' rel='noopener noreferrer'>
       <div className=' relative aspect-4/2 overflow-hidden rounded-t-lg'>
           {image ? (
             <Image  
