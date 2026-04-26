@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/component/layout/navbar";
 import Footer from "@/component/layout/footer";
 import { Analytics } from "@vercel/analytics/react";
+import { SubmitModalProvider } from "@/component/ui/submitModal";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -77,9 +78,11 @@ export default function RootLayout({
       <body
         className="font-sans antialiased bg-white text-neutral-900"
       >
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
+        <SubmitModalProvider>
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </SubmitModalProvider>
 
         <Analytics />
       </body>
