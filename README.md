@@ -2,9 +2,9 @@
 
 **Curated inspiration for people who build.**
 
-🔗 https://insposite.vercel.app
+🔗 https://insposite.com
 
-[![Insposite Banner](public/og1.png)](https://insposite.vercel.app)
+[![Insposite Banner](https://raw.githubusercontent.com/prasanjit-dey-ux/Insposite/main/web/public/og1.png)](https://insposite.com)
 
 ---
 
