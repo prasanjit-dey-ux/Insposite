@@ -49,21 +49,33 @@ export function SubmitModalProvider({ children }: { children: ReactNode }) {
               aria-hidden="true"
             />
 
-            {/* ── Modal card ── */}
+            {/* ── Modal ── */}
+            {/* Mobile: bottom sheet sliding up | Desktop: centered card */}
             <motion.div
               key="modal"
-              initial={{ opacity: 0, y: 24, scale: 0.97 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: 16, scale: 0.97 }}
-              transition={{ type: "spring", stiffness: 340, damping: 28 }}
-              className="fixed inset-0 z-50 flex items-center justify-center pointer-events-none px-4"
+              initial={{ opacity: 0, y: "100%" }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: "100%" }}
+              transition={{ type: "spring", stiffness: 340, damping: 30 }}
+              className="fixed inset-x-0 bottom-0 z-50 sm:inset-0 sm:flex sm:items-center sm:justify-center sm:pointer-events-none pointer-events-auto"
             >
               <div
-                className="relative w-full max-w-lg bg-white rounded-2xl shadow-2xl ring-1 ring-slate-200 pointer-events-auto max-h-[92vh] overflow-y-auto"
+                className="
+                  relative w-full bg-white
+                  rounded-t-2xl sm:rounded-2xl
+                  shadow-2xl ring-1 ring-slate-200
+                  sm:max-w-lg sm:pointer-events-auto
+                  max-h-[92vh] overflow-y-auto
+                "
                 onClick={(e) => e.stopPropagation()}
               >
-                {/* Form (handles its own close button via onClose prop) */}
-                <div className="px-7 py-7">
+                {/* Drag handle – mobile only */}
+                <div className="sm:hidden flex justify-center pt-3 pb-1">
+                  <div className="w-10 h-1 rounded-full bg-neutral-300" />
+                </div>
+
+                {/* Form */}
+                <div className="px-4 py-4 sm:px-7 sm:py-7">
                   <SubmitForm onClose={closeModal} />
                 </div>
               </div>

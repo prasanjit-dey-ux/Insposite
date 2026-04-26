@@ -29,7 +29,7 @@ export default function Home() {
           <Header
             title="Curated Inspiration"
             highlight="For People Who Build"
-            description="Design references, portfolios, and tools in one place. No more endless bookmarks—just quality resources for developers and designers."
+            description="Design references, portfolios, and tools in one place. No more endless bookmarks,just quality resources for developers and designers."
           />
 
           <Filters activeFilter={activeFilter} setActiveFilter={handleFilterChange} />
