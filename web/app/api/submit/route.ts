@@ -79,11 +79,18 @@ export async function POST(req: NextRequest) {
         footer: { text: "INSPOSITE submission" },
       };
 
-      await fetch(DISCORD_WEBHOOK, {
+      const discordRes = await fetch(DISCORD_WEBHOOK, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ embeds: [embed] }),
       });
+
+      if (!discordRes.ok) {
+        const text = await discordRes.text().catch(() => "(unreadable)");
+        console.error(
+          `[/api/submit] Discord webhook failed — status: ${discordRes.status}, body: ${text}`
+        );
+      }
     }
 
     return NextResponse.json({ ok: true }, { status: 201 });
