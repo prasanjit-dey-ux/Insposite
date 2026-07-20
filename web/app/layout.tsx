@@ -35,11 +35,11 @@ const sacramento = Sacramento({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://insposite.vercel.app"),
-  title: "INSPOSITE — Curated inspiration for creative minds",
+  title: "Insposite",
   description:
     "Discover developer portfolios, inspiration websites, and useful web tools — curated for people who build for the web.",
   openGraph: {
-    title: "INSPOSITE — Curated inspiration for creative minds",
+    title: "Insposite",
     description:
       "Portfolios, inspiration sites, and useful web tools in one curated hub.",
     url: "https://insposite.vercel.app",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "INSPOSITE — Curated inspiration for creative minds",
+    title: "Insposite",
     description:
       "Portfolios, inspiration websites, and useful web tools for people who build for the web.",
     images: ["/og1.png"],

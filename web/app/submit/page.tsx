@@ -2,7 +2,7 @@ import { SubmitForm } from "@/component/ui/submitForm";
 import { Container } from "@/component/ui/container";
 
 export const metadata = {
-  title: "Submit Your Site — INSPOSITE",
+  title: "Submit Your Site — Insposite",
   description:
     "Share a design portfolio, tool, or inspiration site with the INSPOSITE community.",
 };
