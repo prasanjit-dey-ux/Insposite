@@ -6,7 +6,14 @@ import { PaginatedGrid } from "@/component/ui/paginationGrid";
 import { sitesData } from "@/data/siteData";
 
 export default function PortfolioPage() {
-  const portfolioItems = sitesData.filter((item) => item.tag === "Portfolio");
+  const portfolioItems = (() => {
+    const items = sitesData.filter((item) => item.tag === "Portfolio");
+    const prasanjit = items.find((item) => item.id === "p16");
+    if (prasanjit) {
+      return [prasanjit, ...items.filter((item) => item.id !== "p16")];
+    }
+    return items;
+  })();
 
   return (
     <div className="min-h-screen max-w-7xl mx-auto px-6">

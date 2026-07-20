@@ -6,13 +6,17 @@ import { SiteItem } from '@/types/site'
 
 export default function Card({image, title, className, tag, url, creator}: SiteItem) {
   
-  const username = creator 
+  let username = creator 
     ? creator.replace("https://", "")
     .replace("http://", "")
     .split("/")
     .filter(Boolean)
     .pop()
     : null; 
+
+  if (username === "www.finniansturdy.com" || username === "finniansturdy.com") {
+    username = "finniansturdy";
+  } 
   
   const taggedUrl = (() => {
     try {

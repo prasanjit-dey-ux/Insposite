@@ -15,7 +15,16 @@ export default function Home() {
   const filteredData =
     activeFilter === "All"
       ? sitesData
-      : sitesData.filter((item) => item.tag === activeFilter);
+      : (() => {
+          const items = sitesData.filter((item) => item.tag === activeFilter);
+          if (activeFilter === "Portfolio") {
+            const prasanjit = items.find((item) => item.id === "p16");
+            if (prasanjit) {
+              return [prasanjit, ...items.filter((item) => item.id !== "p16")];
+            }
+          }
+          return items;
+        })();
 
   function handleFilterChange(f: string) {
     setActiveFilter(f);

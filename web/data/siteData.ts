@@ -38,6 +38,24 @@ export const sitesData: SiteItem[] = [
   },
 
   {
+    id: "i20",
+    title: "Recent Design",
+    tag: "Inspiration",
+    url: "https://recent.design/",
+    creator: "https://x.com/darylginn",
+    image: "/images/recent_design_new.png",
+  },
+
+  {
+    id: "p16",
+    title: "Prasanjit Dey",
+    tag: "Portfolio",
+    url: "https://www.prasanjitdey.com/",
+    creator: "https://x.com/Prasanjit_ui",
+    image: "/images/prasanjit.png",
+  },
+
+  {
     id: "t1",
     title: "Aceternity UI",
     tag: "Tool",
@@ -93,7 +111,7 @@ export const sitesData: SiteItem[] = [
     id: "p8",
     title: "Vansh Nagar",
     tag: "Portfolio",
-    url: "https://vanshnagar.me/",
+    url: "https://vanshnagar.com/",
     creator: "https://x.com/vansh1029",
     image: "/images/vansh.png",
   },
@@ -178,14 +196,6 @@ export const sitesData: SiteItem[] = [
     image: "/images/designspells.png",
   },
 
-  {
-    id: "i13",
-    title: "Sapiens",
-    tag: "Inspiration",
-    url: "https://sapiens.website",
-    creator: "https://github.com/junaidanjum",
-    image: "/images/sapiens.png",
-  },
   {
     id: "i14",
     title: "a-fresh",
@@ -313,17 +323,9 @@ export const sitesData: SiteItem[] = [
     id: "p11",
     title: "Gautam",
     tag: "Portfolio",
-    url: "https://www.0xgautam.xyz/",
+    url: "https://www.heygautam.com/",
     creator: "https://github.com/gautamkumar1",
     image: "/images/gautam.png",
-  },
-  {
-    id: "p12",
-    title: "Ayush Goyal",
-    tag: "Portfolio",
-    url: "https://agayush.me/",
-    creator: "",
-    image: "/images/ayush.png",
   },
   {
     id: "p13",
@@ -350,5 +352,75 @@ export const sitesData: SiteItem[] = [
     image: "/images/unlimited_studio.png",
   },
 
+  {
+    id: "t10",
+    title: "Ossium Inc",
+    tag: "Tool",
+    url: "https://ossium.live/",
+    creator: "https://x.com/ossium_inc",
+    image: "/images/ossium.png",
+  },
 
+  {
+    id: "p17",
+    title: "Manish Kumar",
+    tag: "Portfolio",
+    url: "https://www.manixh.dev/",
+    creator: "https://x.com/Manixh02",
+    image: "/images/manish.png",
+  },
+
+  {
+    id: "t11",
+    title: "Ascii Studio",
+    tag: "Tool",
+    url: "https://www.asciistudio.space/",
+    creator: "https://x.com/vansh1029",
+    image: "/images/asciistudio.png",
+  },
+
+  {
+    id: "p18",
+    title: "Dhruv",
+    tag: "Portfolio",
+    url: "https://jdhruv.dev/",
+    creator: "https://x.com/dhruvtwt_",
+    image: "/images/dhruv.png",
+  },
+
+  {
+    id: "i19",
+    title: "Logosystem",
+    tag: "Inspiration",
+    url: "https://logosystem.co/",
+    creator: "https://x.com/driceroland",
+    image: "/images/logosystem.png",
+  },
+
+  {
+    id: "t12",
+    title: "Nexvyn UI",
+    tag: "Tool",
+    url: "https://ui.nexvyn.dev/",
+    creator: "https://x.com/nexvyn",
+    image: "/images/nexvyn_ui.png",
+  },
+
+  {
+    id: "t13",
+    title: "Pixel Perfect",
+    tag: "Tool",
+    url: "https://www.pixel-perfect.space/",
+    creator: "https://x.com/vansh1029",
+    image: "/images/pixel_perfect.png",
+  },
+
+  {
+    id: "i21",
+    title: "Pricing Page Design",
+    tag: "Inspiration",
+    url: "https://pricingpages.design/",
+    creator: "https://www.finniansturdy.com/",
+    image: "/images/pricing_pages.png",
+  },
 ];
