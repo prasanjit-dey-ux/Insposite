@@ -20,6 +20,15 @@ export const sitesData: SiteItem[] = [
   },
 
   {
+    id: "p19",
+    title: "Sophie Manalo",
+    tag: "Portfolio",
+    url: "https://www.sophiamanalo.com/",
+    creator: "https://x.com/sloppopp",
+    image: "/images/sophie_manalo.png",
+  },
+
+  {
     id: "i2",
     title: "Craftwork",
     tag: "Inspiration",
@@ -422,5 +431,149 @@ export const sitesData: SiteItem[] = [
     url: "https://pricingpages.design/",
     creator: "https://www.finniansturdy.com/",
     image: "/images/pricing_pages.png",
+  },
+
+  {
+    id: "i22",
+    title: "Interface In Game",
+    tag: "Inspiration",
+    url: "https://interfaceingame.com/",
+    creator: "https://x.com/interfaceingame",
+    image: "/images/interface_in_game.png",
+  },
+
+  {
+    id: "i23",
+    title: "Deck.gallery",
+    tag: "Inspiration",
+    url: "https://deck.gallery/",
+    creator: "https://x.com/senyil",
+    image: "/images/deck_gallery.png",
+  },
+
+  {
+    id: "i24",
+    title: "ShotDeck",
+    tag: "Inspiration",
+    url: "https://shotdeck.com/",
+    creator: "https://x.com/ShotDeck",
+    image: "/images/shotdeck.png",
+  },
+
+  {
+    id: "i25",
+    title: "OGimage.gallery",
+    tag: "Inspiration",
+    url: "https://ogimage.gallery/",
+    creator: "https://x.com/lucchaissac",
+    image: "/images/ogimage_gallery.png",
+  },
+
+  {
+    id: "i26",
+    title: "Rebrand",
+    tag: "Inspiration",
+    url: "https://rebrand.gallery/",
+    creator: "https://x.com/rebrandgallery",
+    image: "/images/rebrand_gallery.png",
+  },
+
+  {
+    id: "i27",
+    title: "Microcopy",
+    tag: "Inspiration",
+    url: "https://microcopy.me/",
+    creator: "",
+    image: "/images/microcopy.png",
+  },
+
+  {
+    id: "i28",
+    title: "Really Good Emails",
+    tag: "Inspiration",
+    url: "https://reallygoodemails.com/",
+    creator: "https://x.com/reallygoodemail",
+    image: "/images/really_good_emails.png",
+  },
+
+  {
+    id: "t14",
+    title: "ColorFlow",
+    tag: "Tool",
+    url: "https://colorflow.ls.graphics/",
+    creator: "https://x.com/lstoregraphics",
+    image: "/images/colorflow.png",
+  },
+
+  {
+    id: "t15",
+    title: "Ramps",
+    tag: "Tool",
+    url: "https://ramps.studio/",
+    creator: "",
+    image: "/images/ramps_studio.png",
+  },
+
+  {
+    id: "t16",
+    title: "ShaderGradient",
+    tag: "Tool",
+    url: "https://www.shadergradient.co/",
+    creator: "https://x.com/ruucm",
+    image: "/images/shadergradient.png",
+  },
+
+  {
+    id: "t17",
+    title: "Tabbied",
+    tag: "Tool",
+    url: "https://tabbied.com/patterns",
+    creator: "",
+    image: "/images/tabbied.png",
+  },
+
+  {
+    id: "t18",
+    title: "zoxilsi studio",
+    tag: "Tool",
+    url: "https://studio.zoxilsi.cc/",
+    creator: "https://x.com/zoxilsi",
+    image: "/images/zoxilsi_studio.png",
+  },
+
+  {
+    id: "t19",
+    title: "Colorable",
+    tag: "Tool",
+    url: "https://colorable.jxnblk.com/",
+    creator: "https://x.com/jxnblk",
+    image: "/images/colorable.png",
+  },
+
+  {
+    id: "t20",
+    title: "Gradient Studio",
+    tag: "Tool",
+    url: "https://gradientsaas.blogspot.com/",
+    creator: "",
+    image: "/images/gradientsaas.png",
+  },
+
+  {
+    id: "t21",
+    title: "Colir",
+    tag: "Tool",
+    url: "https://colir.space/app",
+    creator: "https://x.com/ColirSpace",
+    image: "/images/colir_space.png",
+  },
+
+  {
+    id: "t22",
+    title: "Backgrounds Supply",
+    tag: "Tool",
+    url: "https://backgrounds.supply/gradient-lab",
+    creator: "https://x.com/kail_designs",
+    image: "/images/backgrounds_supply.png",
   },
 ];
