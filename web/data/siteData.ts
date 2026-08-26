@@ -576,4 +576,40 @@ export const sitesData: SiteItem[] = [
     creator: "https://x.com/kail_designs",
     image: "/images/backgrounds_supply.png",
   },
+
+  {
+    id: "i29",
+    title: "Saaspo",
+    tag: "Inspiration",
+    url: "https://www.saaspo.com/",
+    creator: "https://x.com/saaspo_",
+    image: "/images/saaspo.png",
+  },
+
+  {
+    id: "i30",
+    title: "Curations Supply",
+    tag: "Inspiration",
+    url: "https://curations.supply/",
+    creator: "",
+    image: "/images/curations_supply.png",
+  },
+
+  {
+    id: "i31",
+    title: "Details.so",
+    tag: "Inspiration",
+    url: "https://www.details.so/inspo",
+    creator: "https://www.linkedin.com/company/details-so",
+    image: "/images/details_inspo.png",
+  },
+
+  {
+    id: "i32",
+    title: "Agency Gallery",
+    tag: "Inspiration",
+    url: "https://agencygallery.com/",
+    creator: "https://x.com/veloxthemes",
+    image: "/images/agency_gallery.png",
+  },
 ];
