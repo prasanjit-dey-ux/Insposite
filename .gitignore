@@ -1,1 +1,19 @@
 .DS_Store
+
+# Security & Environments
+.env
+.env*.local
+.env.production
+.env.prod
+.env.development
+.env.test
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+node_modules/
+venv/
+.venv/
+.cache/
+.browser-profile/
